@@ -1,0 +1,54 @@
+name: kaburajadulu
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  icons_launcher: ^3.0.1
+  svg_flutter: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf
+          weight: 900
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Light.ttf
+          weight: 400
+
+icons_launcher:
+  image_path: "assets/images/App_Icon.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+
