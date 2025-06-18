@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kaburajadulu/screens/home_screen.dart';
+import 'package:kaburajadulu/components/bottom_navbar.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -46,7 +46,7 @@ class OnboardingScreen extends StatelessWidget {
                       padding: EdgeInsets.symmetric(vertical: 15)
                     ),
                     onPressed: () {
-                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => BottomNavbar()));
                     }, 
                     child: Text("Get started", style: TextStyle(
                         color: Colors.white,
