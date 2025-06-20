@@ -20,7 +20,7 @@ class Location {
 
 var locationList = [
   Location(
-    name: 'Bromo',
+    name: 'Bromo Mountain',
     thumbnailImage: 'assets/images/places/Bromo1.png',
     description: 'Mount Bromo, located in East Java, Indonesia, is one of the most iconic and frequently visited volcanic mountains in Southeast Asia. Known for its ethereal sunrise views, vast Sea of Sand, and smoking crater, Bromo offers a surreal landscape that feels like another world. Tourists often hike or take jeep tours early in the morning to catch the golden sunrise from Mount Penanjakan, overlooking the crater and Mount Semeru in the distance. The name "Bromo" is derived from the Javanese pronunciation of Brahma, the Hindu creator god.',
     location: 'East Java, Indonesia',
@@ -35,7 +35,7 @@ var locationList = [
   ),
   Location(
     name: 'Eiffel Tower',
-    thumbnailImage: 'assets/images/places/Eiffel1.png',
+    thumbnailImage: 'assets/images/places/Eiffel5.png',
     description: 'The Eiffel Tower, an enduring symbol of Paris and France, was constructed in 1889 as the entrance arch to the World\'s Fair. Designed by Gustave Eiffel, this wrought-iron lattice tower stands 330 meters tall and draws millions of visitors each year. It offers panoramic views of Paris from its observation decks and lights up spectacularly at night. Beyond its architectural brilliance, the Eiffel Tower represents the elegance and innovation of 19th-century engineering and continues to be a cultural and romantic icon of the city.',
     location: 'Paris, France',
     duration: '1-2 hours',
@@ -44,7 +44,7 @@ var locationList = [
       'assets/images/places/Eiffel2.png',
       'assets/images/places/Eiffel3.png',
       'assets/images/places/Eiffel4.png',
-      'assets/images/places/Eiffel5.png',
+      'assets/images/places/Eiffel1.png',
     ],
   ),
   Location(
@@ -65,8 +65,8 @@ var locationList = [
     name: 'Tavarua Island',
     thumbnailImage: 'assets/images/places/tavarua1.png',
     description: 'Tavarua Island is a heart-shaped island paradise located in Fiji, renowned for its world-class surfing, crystal-clear lagoons, and luxurious accommodations. Surrounded by coral reefs, it offers some of the most legendary surf breaks including "Cloudbreak". The island is also a haven for snorkeling, paddleboarding, and relaxation. With its exclusive resort, stunning sunsets, and tranquil atmosphere, Tavarua is a dream destination for honeymooners, surfers, and nature lovers alike.',
-    location: 'Mamanuca Islands, Fiji',
-    duration: 'Full-day trip or overnight stay',
+    location: 'Fiji',
+    duration: '5 - 6 hours',
     distance: '30 Minutes',
     galleryImages: [
       'assets/images/places/tavarua2.png',
@@ -95,8 +95,12 @@ var locationList = [
     description: 'Hagia Sophia is a historic architectural marvel located in Istanbul, Turkey. Originally built in the 6th century by Byzantine Emperor Justinian I, it has served as a cathedral, mosque, and now a museum. The structure is renowned for its massive dome, stunning mosaics, and the blend of Christian and Islamic elements. Hagia Sophia stands as a symbol of cultural harmony and is one of the most visited landmarks in Turkey.',
     location: 'Istanbul, Turkey',
     duration: '1-2 hours',
-    distance: '2 km',
+    distance: '2 km from the Blue Mosque',
     galleryImages: [
+      'assets/images/places/HagiaSophia2.png',
+      'assets/images/places/HagiaSophia3.png',
+      'assets/images/places/HagiaSophia4.png',
+      'assets/images/places/HagiaSophia5.png',
       'assets/images/places/HagiaSophia2.png',
       'assets/images/places/HagiaSophia3.png',
       'assets/images/places/HagiaSophia4.png',
@@ -147,13 +151,13 @@ var locationList = [
   ),
   Location(
     name: 'Big Ben',
-    thumbnailImage: 'assets/images/places/BigBen1.png',
+    thumbnailImage: 'assets/images/places/BigBen2.png',
     description: 'Big Ben is one of the most iconic landmarks in London, United Kingdom. While commonly referred to as the clock tower, Big Ben is actually the nickname for the Great Bell inside the tower. Now officially known as the Elizabeth Tower, it stands adjacent to the Houses of Parliament. The clock is famous for its accuracy and the deep tone of the bell. It is a historic and cultural symbol of the UK and one of the most photographed buildings in the world.',
     location: 'London, United Kingdom',
     duration: '1-2 hours',
     distance: '1 km',
     galleryImages: [
-      'assets/images/places/BigBen2.png',
+      'assets/images/places/BigBen1.png',
       'assets/images/places/BigBen3.png',
       'assets/images/places/BigBen4.png',
       'assets/images/places/BigBen5.png',
