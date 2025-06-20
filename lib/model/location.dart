@@ -95,7 +95,7 @@ var locationList = [
     description: 'Hagia Sophia is a historic architectural marvel located in Istanbul, Turkey. Originally built in the 6th century by Byzantine Emperor Justinian I, it has served as a cathedral, mosque, and now a museum. The structure is renowned for its massive dome, stunning mosaics, and the blend of Christian and Islamic elements. Hagia Sophia stands as a symbol of cultural harmony and is one of the most visited landmarks in Turkey.',
     location: 'Istanbul, Turkey',
     duration: '1-2 hours',
-    distance: '2 km from the Blue Mosque',
+    distance: '2 km ',
     galleryImages: [
       'assets/images/places/HagiaSophia2.png',
       'assets/images/places/HagiaSophia3.png',
